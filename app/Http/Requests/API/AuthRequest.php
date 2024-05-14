@@ -30,7 +30,7 @@ class AuthRequest extends FormRequest
                 'name' => ['required', 'min:3', 'max:100'],
                 'username' => ['required', 'alpha_dash', 'unique:users,username'],
                 'email' => ['required', 'email', 'unique:users,email'],
-                'phone' => ['required', 'digits_between:12,13', 'unique:users,phone'],
+                'phone' => ['required', 'digits_between:11,13', 'unique:users,phone'],
                 'password' => [
                     'required', 'string', 'confirmed',
                     Password::min(8)
