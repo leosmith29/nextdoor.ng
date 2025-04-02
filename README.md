@@ -1,5 +1,5 @@
 <h1 align="center">
-LaraCommerce REST API
+NextDoor REST API
 </h1>
 
 <h5 align="center">
